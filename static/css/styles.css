@@ -191,6 +191,46 @@ color: #ffffff;
 }
 /***************************************************************/
 
+@media all and (max-width:724px)
+{
+    .area-body2{
+    width: 90%;
+    display:inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background: #9CC4E4;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    border-style: dotted;
+    border-color: #010101;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10pt;
+    margin-left: 10px;
+    }
+    .area-body1{
+    display: inline-block;
+    width: 85%;
+    background: #3A89C9;
+    margin-bottom: 5px;
+
+    padding: 50px;
+   margin-top: 200px;
+    border-radius: 10px;
+    }
+    .menu {
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    height: 31%;
+    box-shadow: 0px 1px 4px #4091EC;
+    padding-left: 1%;
+    padding-bottom: 5%;
+    margin-top: -0.8%;
+    text-align: center;
+}
+}
 
 
 
