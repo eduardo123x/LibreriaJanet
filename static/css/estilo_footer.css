@@ -1,0 +1,167 @@
+.footer_final{
+    background-color: #16262E;
+/*    height: 500px;*/
+    padding: 0px 0px 0;
+    width: 100%;
+  float:left;
+  margin-top: 35px;
+  }
+.footer_final li {
+  list-style-type: circle;
+  list-style-position: outside;
+  font-size: 12px;
+}
+
+.footer_final ul {
+    padding: 0 0 0 13px !important;
+}
+
+.footer_final li a, footer h4 {
+  color:#fff !important;
+}
+.footer_final h4{
+  text-transform:uppercase;
+  font-size:13px;
+  font-family: 'PT Sans', Arial, sans-serif;
+  }
+.footer_final p, .footer_final a{
+  color:#fff !important;
+  font-size: 13px;
+}
+  
+.separador {
+    border-top: 1px dotted #fff;
+    float: left;
+    font-size: 10px;
+    padding: 12px 0;
+    width: 100%;
+  text-align: left;
+  }
+
+.texto_acceso{
+  font-size: 10px;
+}
+
+.centro{
+  text-align: center;
+  padding: 10px;
+}
+
+.texto{
+  text-align: center;
+  font-size: 12px;
+  margin-top: -5px;
+  color: #fff;
+}
+.img_footer{
+  width: 15%;
+  text-align: center;
+}
+
+.direcciones{
+  padding: 5px;
+}
+
+.recla_politica{
+  margin-top: -20px;
+}
+/****FOOTER PARTE 222 *************************/
+
+
+#footer {
+background: #006636;
+color: white;
+text-align: center;
+line-height: 30px;
+position: relative;
+margin-top: 5px;}
+#footer #go-up {
+display: inline-block;
+position: absolute;
+top: -35px;
+left: 50%;
+margin-left: -22.5px;
+background: #000d1a;
+width: 45px;
+height: 45px;
+-webkit-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+cursor: pointer;
+border-radius: 50%;}
+#footer #go-up:after, #footer #go-up:before {
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+display: block;
+content: "";
+position: absolute;
+left: 10px;
+top: 16px;
+width: 17px;
+height: 1px;
+background: white; }
+#footer #go-up:after {
+-webkit-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+transform: rotate(-90deg);
+left: 18px;
+top: 25px; }
+#footer #go-up:before {
+-webkit-transform: rotate(0);
+-ms-transform: rotate(0);
+-o-transform: rotate(0);
+transform: rotate(0); }
+#footer #go-up:hover:after, #footer #go-up:hover:before {
+background: #16262E; }
+
+.copyright{
+  padding: -5px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+#footer_bajo{
+  background: #008044;
+  color: #fff;
+}
+
+.titulo_footer{
+  color: #d9d9d9;
+
+}
+.titulo_footer_principal{
+    color: #d9d9d9;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+    
+@media all and (max-width:724px)
+{
+  .col-footer h4{
+    text-align:left;
+    font-size:18px;
+  }
+  .col-footer ul li{
+    list-style:none;
+    text-align:left;
+  }
+  .col-footer .separador table tbody tr td{
+    text-align:left;    
+  }
+  .footer_final .row div .titulo_footer{
+    text-align:left;
+    font-size:15px;
+  }
+   .footer_final .row div .col-footer{
+    text-align:left;
+  }
+   .footer_final .row div .col-footer .separador .social-footer{
+    margin-left:20%;
+  }
+}
